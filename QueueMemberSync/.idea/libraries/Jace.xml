@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Jace">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/Jace.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pe.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqljdbc41-6.0.8112.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

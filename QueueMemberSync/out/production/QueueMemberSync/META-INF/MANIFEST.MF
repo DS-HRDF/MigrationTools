@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: com.dataserve.queue.sync.RolesMebmers
+Class-Path: Jace.jar pe.jar sqljdbc41-6.0.8112.jar log4j-1.2.17.jar
+Implementation-Title: SPGA migration
+Implementation-Version: v1
+Permissions: sandbox
+JavaFX-Version: 8.0
+Created-By: JavaFX Packager
+Implementation-Vendor: dataserve
+

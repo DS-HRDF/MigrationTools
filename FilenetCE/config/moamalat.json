@@ -1,0 +1,253 @@
+{
+  "docClassList": [
+    {
+      "parentClass": "Document",
+      "code": "CorrespondenceInfo",
+      "label": "CorrespondenceInfo",
+      "templateList": [
+        {
+          "code": "CorrespondenceNumber",
+          "label": "CorrespondenceNumber",
+          "dataType": "number"
+        },
+        {
+          "code": "CorrespondenceType",
+          "label": "CorrespondenceType",
+          "dataType": "number"
+        },
+        {
+          "code": "HijricYear",
+          "label": "HijricYear",
+          "dataType": "number"
+        },
+        {
+          "code": "isDeleted",
+          "label": "isDeleted",
+          "dataType": "boolean"
+        },
+        {
+          "code": "isSorted",
+          "label": "isSorted",
+          "dataType": "boolean"
+        },
+        {
+          "code": "sortNumber",
+          "label": "sortNumber",
+          "dataType": "number"
+        },
+        {
+          "code": "ParentForwardingStatus",
+          "label": "ParentForwardingStatus",
+          "dataType": "number"
+        },
+        {
+          "code": "ForwardingStatus",
+          "label": "ForwardingStatus",
+          "dataType": "number"
+        },
+        {
+          "code": "CustomModifiedBy",
+          "label": "CustomModifiedBy",
+          "dataType": "text"
+        },
+        {
+          "code": "SortedOwner",
+          "label": "SortedOwner",
+          "dataType": "text"
+        }
+      ]
+    },
+    {
+      "parentClass": "CorrespondenceInfo",
+      "code": "VIPCorrespondenceSorted",
+      "label": "VIPCorrespondenceSorted",
+      "templateList": []
+    },
+    {
+      "parentClass": "CorrespondenceInfo",
+      "code": "VIPTempCorrespondenceSorted",
+      "label": "VIPTempCorrespondenceSorted",
+      "templateList": []
+    },
+    {
+      "parentClass": "Document",
+      "code": "DeliveryReportDocument",
+      "label": "DeliveryReportDocument",
+      "templateList": [
+        {
+          "code": "DeliveryReportId",
+          "label": "DeliveryReportId",
+          "dataType": "number"
+        },
+        {
+          "code": "DeliveryReportType",
+          "label": "DeliveryReportType",
+          "dataType": "number"
+        },
+        {
+          "code": "DeliveryReportHijricYear",
+          "label": "DeliveryReportHijricYear",
+          "dataType": "number"
+        },
+        {
+          "code": "CorrespondenceNumber",
+          "label": "CorrespondenceNumber",
+          "dataType": "number"
+        },
+        {
+          "code": "CorrData",
+          "label": "CorrData",
+          "dataType": "text"
+        }
+      ]
+    },
+    {
+      "parentClass": "Document",
+      "code": "RegulatoryDocuments",
+      "label": "RegulatoryDocuments",
+      "templateList": [
+        {
+          "code": "CorrespondenceNumber",
+          "label": "CorrespondenceNumber",
+          "dataType": "number"
+        },
+        {
+          "code": "CorrespondenceType",
+          "label": "CorrespondenceType",
+          "dataType": "number"
+        },
+        {
+          "code": "HijricYear",
+          "label": "HijricYear",
+          "dataType": "number"
+        },
+        {
+          "code": "isArchived",
+          "label": "isArchived",
+          "dataType": "number"
+        },
+        {
+          "code": "MigOldDocId",
+          "label": "MigOldDocId",
+          "dataType": "text"
+        }
+      ]
+    },
+    {
+      "parentClass": "Document",
+      "code": "RegulatoryDocuments",
+      "label": "RegulatoryDocuments",
+      "templateList": [
+        {
+          "code": "CorrespondenceNumber",
+          "label": "CorrespondenceNumber",
+          "dataType": "number"
+        },
+        {
+          "code": "CorrespondenceType",
+          "label": "CorrespondenceType",
+          "dataType": "number"
+        },
+        {
+          "code": "HijricYear",
+          "label": "HijricYear",
+          "dataType": "number"
+        },
+        {
+          "code": "isArchived",
+          "label": "isArchived",
+          "dataType": "number"
+        },
+        {
+          "code": "MigOldDocId",
+          "label": "MigOldDocId",
+          "dataType": "text"
+        }
+      ]
+    },
+    {
+      "parentClass": "Document",
+      "code": "SignableAttachment",
+      "label": "SignableAttachment",
+      "templateList": [
+        {
+          "code": "DraftLock",
+          "label": "DraftLock",
+          "dataType": "boolean"
+        },
+        {
+          "code": "MinisterJobTitle_ID",
+          "label": "MinisterJobTitle_ID",
+          "dataType": "number"
+        },
+        {
+          "code": "ConfirmUser",
+          "label": "ConfirmUser",
+          "dataType": "text"
+        },
+        {
+          "code": "letterSettings",
+          "label": "letterSettings",
+          "dataType": "text"
+        },
+        {
+          "code": "hasCCContent",
+          "label": "hasCCContent",
+          "dataType": "boolean"
+        },
+        {
+          "code": "relatedTo",
+          "label": "relatedTo",
+          "dataType": "text"
+        },
+        {
+          "code": "ForwardingStatus",
+          "label": "ForwardingStatus",
+          "dataType": "number"
+        },
+        {
+          "code": "ImportanceLevel",
+          "label": "ImportanceLevel",
+          "dataType": "text"
+        },
+        {
+          "code": "canViewUsers",
+          "label": "canViewUsers",
+          "dataType": "list"
+        },
+        {
+          "code": "IsSigned",
+          "label": "IsSigned",
+          "dataType": "boolean"
+        },
+        {
+          "code": "DocumentSubject",
+          "label": "DocumentSubject",
+          "dataType": "text"
+        },
+        {
+          "code": "CorrespondenceNumber",
+          "label": "CorrespondenceNumber",
+          "dataType": "number"
+        },
+        {
+          "code": "CorrespondenceType",
+          "label": "CorrespondenceType",
+          "dataType": "number"
+        },
+        {
+          "code": "HijricYear",
+          "label": "HijricYear",
+          "dataType": "number"
+        },
+        {
+          "code": "HF_ID",
+          "label": "HF_ID",
+          "dataType": "number"
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: ImageExtraction
+Class-Path: sqljdbc41.jar ojdbc14.jar
+

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="QueueMemberSync:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QueueMemberSync_jar</output-path>
+    <root id="root">
+      <element id="archive" name="QueueMemberSync.jar">
+        <element id="module-output" name="QueueMemberSync" />
+      </element>
+      <element id="library" level="project" name="Jace" />
+    </root>
+  </artifact>
+</component>

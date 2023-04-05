@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/../../MoamalatData/src/com/dataserve/data/WebContent/moamalatDataDojo/ThumbinalDecoratorV1.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MoamalatPlugin/out/production/MoamalatPlugin/ds/icn/moamalat/WebContent/moamalatPluginDojo/isReadPluginDecorator.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MoamalatPlugin/src/ds/icn/moamalat/WebContent/moamalatPluginDojo/isReadPluginDecorator.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MoamalatPlugin/src/ds/icn/moamalat/WebContent/moamalatPluginDojo/templates/IncomingCorrespondenceForm.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../MoamalatPlugin/src/ds/icn/moamalat/WebContent/moamalatPluginDojo/templates/OutgoingCorrespondenceForm.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/ImageExtraction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../SPGAMigration/src/com/dataserve/migration/spga/util/PEUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

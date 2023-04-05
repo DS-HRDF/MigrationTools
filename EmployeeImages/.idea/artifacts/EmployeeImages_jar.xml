@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="EmployeeImages:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/EmployeeImages_jar</output-path>
+    <root id="root">
+      <element id="archive" name="EmployeeImages.jar">
+        <element id="module-output" name="EmployeeImages" />
+      </element>
+      <element id="library" level="module" name="sqljdbc41.jar" module-name="EmployeeImages" />
+      <element id="library" level="module" name="ojdbc14.jar" module-name="EmployeeImages" />
+    </root>
+  </artifact>
+</component>
