@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="c3p0-0.9.5.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/c3p0-0.9.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqljdbc41-6.0.8112.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/stax-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xlxpScanner.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/c3p0-oracle-thin-extras-0.9.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pe.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mchange-commons-java-0.2.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xml-apis-1.0.b2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xlxpScannerUtils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/Jace.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jtds-1.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

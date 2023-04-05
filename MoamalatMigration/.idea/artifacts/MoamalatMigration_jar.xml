@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="MoamalatMigration:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MoamalatMigration_jar</output-path>
+    <root id="root">
+      <element id="archive" name="MoamalatMigration.jar">
+        <element id="module-output" name="MoamalatMigration" />
+      </element>
+      <element id="library" level="project" name="c3p0-0.9.5.5" />
+    </root>
+  </artifact>
+</component>
