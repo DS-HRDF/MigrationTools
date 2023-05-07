@@ -1,0 +1,31 @@
+
+--DELETE IO_DEPARTMENTSCONFIGS
+--WHERE DEPARTMENTID NOT IN (1000000,9999)
+
+PRINT 'Inserting into IO_DEPARTMENTSCONFIGS'
+PRINT GETDATE()
+
+
+BEGIN TRY
+
+INSERT INTO [dbo].[IO_DEPARTMENTSCONFIGS]
+           ([DEPARTMENTID]
+           ,[ENABLEDOPTIONSMASK])
+     
+
+	 select DEPARTMENTID,1 from IO_DEPARTMENTS
+		where DEPARTMENTID <> 1000000
+
+END TRY  
+BEGIN CATCH
+
+        SELECT  
+            ERROR_NUMBER() AS ErrorNumber  
+            ,ERROR_SEVERITY() AS ErrorSeverity  
+            ,ERROR_STATE() AS ErrorState  
+            ,ERROR_PROCEDURE() AS ErrorProcedure  
+            ,ERROR_LINE() AS ErrorLine  
+            ,ERROR_MESSAGE() AS ErrorMessage;  
+END CATCH
+
+

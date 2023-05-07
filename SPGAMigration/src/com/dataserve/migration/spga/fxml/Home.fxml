@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="spgaBtn" mnemonicParsing="false" prefWidth="150.0" text="Documents">
+                    <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </VBox.margin>
+                </Button>
+            <Button fx:id="workitemsBtn" layoutX="15.0" layoutY="50.0" mnemonicParsing="false" prefWidth="150.0" text="Workitems" />
+            <Button fx:id="inbasket" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="Inbasket" />
+            </children>
+        </VBox>
+    </center>
+    <top>
+        <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </top>
+    <left>
+        <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </left>
+</BorderPane>

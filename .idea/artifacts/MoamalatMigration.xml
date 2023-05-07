@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="MoamalatMigration">
+    <output-path>$PROJECT_DIR$/out/artifacts/MoamalatMigration</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.dataserve.migration.spga.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="MoamalatMigration.jar">
+        <element id="module-output" name="SPGAMigration" />
+      </element>
+      <element id="library" level="project" name="migrationlib" />
+      <element id="file-copy" path="$PROJECT_DIR$/SPGAMigration/lib/c3p0-0.9.5.5.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/SPGAMigration/lib/c3p0-oracle-thin-extras-0.9.5.5.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/SPGAMigration/lib/mchange-commons-java-0.2.19.jar" />
+    </root>
+  </artifact>
+</component>

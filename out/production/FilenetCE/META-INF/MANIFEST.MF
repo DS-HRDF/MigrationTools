@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: com.filenetce.Main
+Class-Path: commons-io.jar commons-lang.jar Jace.jar log4j-1.2.16.jar st
+ ax-api.jar xlxpScanner.jar xlxpScannerUtils.jar gson-2.8.2.jar
+

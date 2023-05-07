@@ -1,0 +1,17 @@
+699	    abuti	1   user
+2871	-1	    2	department
+8963	-1	    3   queue
+
+To, CC depts,users,Queues
+
+SELECT [CORRESPONDENCENUMBER]
+      ,[HIJRICYEAR]
+      ,[DEPARTMENTID]		deptId internal
+      ,[EMPLOYEELOGINID]	userid if send to uder else -1
+      ,[PARTICIPANTTYPE]	1   user, 2	department, 3   queue
+      ,[COMMENTS]			NULL
+      ,[ISMINISTER]			NULL
+      ,[RECORDNUMBER]		NULL
+      ,[DELIVERED]			0
+      ,[LETTERTYPEID]		1
+  FROM [dbo].[IO_INCOMINGDESTINATIONS]

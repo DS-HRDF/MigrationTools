@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ConfirmationSubscription/lib/xlxpScanner.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConfirmationSubscription/lib/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConfirmationSubscription/lib/commons-io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConfirmationSubscription/lib/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConfirmationSubscription/lib/xlxpScannerUtils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConfirmationSubscription/lib/stax-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConfirmationSubscription/lib/commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ConfirmationSubscription/lib/Jace.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

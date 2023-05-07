@@ -1,0 +1,17 @@
+
+
+SELECT [CORRESPONDENCENUMBER]
+      ,[HIJRICYEAR]
+      ,[CORRESPONDENCEDESTINATIONID]   رقم الجهة الخارجية من انشاء المعاملة او اضافتها لاحقا
+      ,[RECEIVEMODEID]					can be 1 to all
+      ,[LETTERTYPEID]					1,2,3,4  ----,> IO_LETTERTYPES
+      ,[COMMENTS] 						NULL
+      ,[UNITTYPEID]						can be 1 to all
+      ,[ATTACHMENTS]					''
+      ,[ISMINISTER]						0
+      ,[RECORDNUMBER]					NULL
+      ,[DELIVERED]						0
+      ,[SearchableComments]				''
+      ,[sec]					AutoGenerate
+      ,[IS_MIGRATED]					1
+  FROM [dbo].[IO_OUTGOINGDESTINATIONS]

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/FilenetCE/lib/xlxpScanner.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FilenetCE/lib/stax-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FilenetCE/lib/xlxpScannerUtils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FilenetCE/lib/commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FilenetCE/lib/Jace.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FilenetCE/lib/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FilenetCE/lib/commons-io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/FilenetCE/lib/log4j-1.2.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

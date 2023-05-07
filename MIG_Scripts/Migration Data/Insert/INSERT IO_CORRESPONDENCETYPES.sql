@@ -1,0 +1,30 @@
+
+
+--DELETE IO_CORRESPONDENCETYPES
+
+PRINT 'Inserting into IO_CORRESPONDENCETYPES'
+PRINT GETDATE()
+
+
+BEGIN TRY
+
+	 INSERT INTO [dbo].[IO_CORRESPONDENCETYPES]
+           ([CORRESPONDENCETYPEID],[CORRESPONDENCETYPEDESC])
+     
+	 SELECT ID,DOC_TYPE_AR FROM CTS_HRDF.dbo.CTS_DOCTYPE
+
+
+END TRY  
+BEGIN CATCH
+
+        SELECT  
+            ERROR_NUMBER() AS ErrorNumber  
+            ,ERROR_SEVERITY() AS ErrorSeverity  
+            ,ERROR_STATE() AS ErrorState  
+            ,ERROR_PROCEDURE() AS ErrorProcedure  
+            ,ERROR_LINE() AS ErrorLine  
+            ,ERROR_MESSAGE() AS ErrorMessage;  
+END CATCH
+
+
+

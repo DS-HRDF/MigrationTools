@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MimeTypeSubscription/lib/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MimeTypeSubscription/lib/tika-core-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MimeTypeSubscription/lib/Jace.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MimeTypeSubscription/lib/commons-io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MimeTypeSubscription/lib/xlxpScannerUtils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MimeTypeSubscription/lib/commons-lang.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MimeTypeSubscription/lib/stax-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MimeTypeSubscription/lib/xlxpScanner.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MimeTypeSubscription/lib/log4j-1.2.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

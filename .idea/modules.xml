@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConfirmationSubscription/ConfirmationSubscription.iml" filepath="$PROJECT_DIR$/ConfirmationSubscription/ConfirmationSubscription.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmployeeImages/EmployeeImages.iml" filepath="$PROJECT_DIR$/EmployeeImages/EmployeeImages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FilenetCE/FilenetCE.iml" filepath="$PROJECT_DIR$/FilenetCE/FilenetCE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MIG_Scripts/MIG_Scripts.iml" filepath="$PROJECT_DIR$/MIG_Scripts/MIG_Scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MimeTypeSubscription/MimeTypeSubscription.iml" filepath="$PROJECT_DIR$/MimeTypeSubscription/MimeTypeSubscription.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SPGAMigration/SPGAMigration.iml" filepath="$PROJECT_DIR$/SPGAMigration/SPGAMigration.iml" />
+    </modules>
+  </component>
+</project>

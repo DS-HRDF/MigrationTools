@@ -1,0 +1,164 @@
+
+--delete IO_OUTGOINGDESTINATIONS
+
+PRINT 'Inserting into IO_OUTGOINGDESTINATIONS'
+PRINT GETDATE()
+
+BEGIN TRY
+
+INSERT INTO [dbo].[IO_OUTGOINGDESTINATIONS]
+           ([CORRESPONDENCENUMBER]
+           ,[HIJRICYEAR]
+           ,[CORRESPONDENCEDESTINATIONID]
+           ,[RECEIVEMODEID]
+           ,[LETTERTYPEID]
+           ,[COMMENTS]
+           ,[UNITTYPEID]
+           ,[ATTACHMENTS]
+           ,[ISMINISTER]
+           ,[RECORDNUMBER]
+           ,[DELIVERED]
+           ,[SearchableComments]
+           ,[IS_MIGRATED]
+           --,[OLD_DOC_ID]
+		   )
+     
+	 SELECT a.CORRESPONDENCENUMBER,
+		a.HIJRICYEAR,
+		a.CORRESPONDENCEDESTINATIONID,
+		a.RECEIVEMODEID,
+		a.LETTERTYPEID,
+		a.COMMENTS,
+		a.UNITTYPEID,
+		a.ATTACHMENTS,
+		a.ISMINISTER,
+		a.RECORDNUMBER,
+		a.DELIVERED,
+		a.SearchableComments,
+		a.IS_MIGRATED
+		--,a.OLD_DOC_ID
+		FROM  (
+		SELECT 
+		CORRESPONDENCENUMBER,
+		HIJRICYEAR,
+		CORRESPONDENCEDESTINATIONID,
+		1 AS [RECEIVEMODEID],
+		1 AS [LETTERTYPEID],
+		'' AS [COMMENTS],
+		1 AS [UNITTYPEID],
+		'' AS [ATTACHMENTS],
+		0 AS [ISMINISTER],
+		NULL AS [RECORDNUMBER],
+		0 AS [DELIVERED],
+		'' AS [SearchableComments],
+		1 AS [IS_MIGRATED],
+		--[OLD_DOC_ID] AS OLD_DOC_ID,
+		COUNT(*) _count
+		FROM MIG_IO_OUTGOING_DESTINATIONS_VIEW
+		GROUP BY CORRESPONDENCENUMBER, HIJRICYEAR,CORRESPONDENCEDESTINATIONID--,OLD_DOC_ID
+		HAVING count(*) = 1 
+		) as a
+
+  END TRY  
+BEGIN CATCH
+
+        SELECT  
+            ERROR_NUMBER() AS ErrorNumber  
+            ,ERROR_SEVERITY() AS ErrorSeverity  
+            ,ERROR_STATE() AS ErrorState  
+            ,ERROR_PROCEDURE() AS ErrorProcedure  
+            ,ERROR_LINE() AS ErrorLine  
+            ,ERROR_MESSAGE() AS ErrorMessage;  
+END CATCH
+
+
+------------------------------------------------------------------------------------------------------------
+
+PRINT 'Inserting into IO_OUTGOINGDESTINATIONS'
+PRINT GETDATE()
+
+BEGIN TRY
+
+INSERT INTO [dbo].[IO_OUTGOINGDESTINATIONS]
+           ([CORRESPONDENCENUMBER]
+           ,[HIJRICYEAR]
+           ,[CORRESPONDENCEDESTINATIONID]
+           ,[RECEIVEMODEID]
+           ,[LETTERTYPEID]
+           ,[COMMENTS]
+           ,[UNITTYPEID]
+           ,[ATTACHMENTS]
+           ,[ISMINISTER]
+           ,[RECORDNUMBER]
+           ,[DELIVERED]
+           ,[SearchableComments]
+           ,[IS_MIGRATED]
+           --,[OLD_DOC_ID]
+		   )
+     
+	 SELECT a.CORRESPONDENCENUMBER,
+		a.HIJRICYEAR,
+		a.CORRESPONDENCEDESTINATIONID,
+		a.RECEIVEMODEID,
+		a.LETTERTYPEID,
+		a.COMMENTS,
+		a.UNITTYPEID,
+		a.ATTACHMENTS,
+		a.ISMINISTER,
+		a.RECORDNUMBER,
+		a.DELIVERED,
+		a.SearchableComments,
+		a.IS_MIGRATED
+		--,a.OLD_DOC_ID
+		FROM  (
+		SELECT 
+		CORRESPONDENCENUMBER,
+		HIJRICYEAR,
+		CORRESPONDENCEDESTINATIONID,
+		1 AS [RECEIVEMODEID],
+		3 AS [LETTERTYPEID],
+		'' AS [COMMENTS],
+		1 AS [UNITTYPEID],
+		'' AS [ATTACHMENTS],
+		0 AS [ISMINISTER],
+		NULL AS [RECORDNUMBER],
+		0 AS [DELIVERED],
+		'' AS [SearchableComments],
+		1 AS [IS_MIGRATED],
+		--[OLD_DOC_ID] AS OLD_DOC_ID,
+		COUNT(*) _count
+		FROM MIG_IO_OUTGOING_DESTINATIONS_VIEW
+		GROUP BY CORRESPONDENCENUMBER, HIJRICYEAR,CORRESPONDENCEDESTINATIONID--,OLD_DOC_ID
+		HAVING count(*) > 1 
+		) as a
+
+  END TRY  
+BEGIN CATCH
+
+        SELECT  
+            ERROR_NUMBER() AS ErrorNumber  
+            ,ERROR_SEVERITY() AS ErrorSeverity  
+            ,ERROR_STATE() AS ErrorState  
+            ,ERROR_PROCEDURE() AS ErrorProcedure  
+            ,ERROR_LINE() AS ErrorLine  
+            ,ERROR_MESSAGE() AS ErrorMessage;  
+END CATCH
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+UPDATE IO_OUTGOINGDESTINATIONS
+
+SET OLD_DOC_ID = outDest.OLD_DOC_ID 
+
+FROM IO_OUTGOINGDESTINATIONS outDest
+JOIN MIG_IO_OUTGOING_DESTINATIONS_VIEW outDestV 
+ON outDestV.CORRESPONDENCENUMBER = outDest.CORRESPONDENCENUMBER
+AND outDestV.HIJRICYEAR = outDest.HIJRICYEAR
+AND outDestV.CORRESPONDENCEDESTINATIONID = outDest.CORRESPONDENCEDESTINATIONID
+
+WHERE outDest.CORRESPONDENCENUMBER = outDestV.CORRESPONDENCENUMBER
+AND outDest.HIJRICYEAR = outDestV.HIJRICYEAR   
+AND outDestV.CORRESPONDENCEDESTINATIONID = outDest.CORRESPONDENCEDESTINATIONID
+AND outDest.IS_MIGRATED = 1

@@ -1,45 +1,394 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MoamalatMigration" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="779775e9-59e0-4c47-b289-7ba4849acf6a" name="Default Changelist" comment="" />
+    <list default="true" id="6fb046d5-3494-41d4-8dab-a387fba87726" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MoamalatMigration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/migrationlib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/ConfirmationSubscription.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/bin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/bin/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/lib/Jace.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/lib/commons-io.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/lib/gson-2.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/lib/xlxpScanner.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/lib/xlxpScannerUtils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/src/com/dataserve/dao/AbstractDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/src/com/dataserve/dao/HandlerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/src/com/dataserve/dao/HijriCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/src/com/dataserve/dao/JDBCHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/src/com/dataserve/dao/WebEditorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/src/com/dataserve/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/src/com/dataserve/entities/WebEditorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfirmationSubscription/src/com/dataserve/handler/ConfirmationSubscriptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeImages/classes/artifacts/EmployeeImages_jar/EmployeeImages.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeImages/classes/artifacts/EmployeeImages_jar/sqljdbc41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeImages/employeeImages.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeImages/src/ImageExtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeImages/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeImages/src/lib/sqljdbc41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/config/moamalat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/lib/Jace.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/lib/commons-io.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/lib/commons-lang.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/lib/gson-2.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/lib/stax-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/lib/xlxpScanner.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/lib/xlxpScannerUtils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/src/com/filenetce/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/src/com/filenetce/dao/CEDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/src/com/filenetce/dao/PropertyTemplateDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/src/com/filenetce/model/DocClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/src/com/filenetce/model/DocClassList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/src/com/filenetce/model/PropTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FilenetCE/src/com/filenetce/model/SharedPropTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Full Search MIG/IO_CIRCULARS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Full Search MIG/IO_EXTERNALUNITS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Full Search MIG/IO_FULL_SEARCH_FORWARDINGS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Full Search MIG/IO_INCOMING.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Full Search MIG/IO_INTERNAL.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Full Search MIG/IO_KARAR.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Full Search MIG/IO_OUTGOING.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Full Search MIG/update full search.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_CIRCULARS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_CORRESPONDENCECATEGORIES.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_CORRESPONDENCETYPES.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_DEPARTMENTQUEUES.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_DEPARTMENTS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_DEPARTMENTSCONFIGS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_EMPLOYEES.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_EMPLOYEESCONFIGS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_EXTERNALUNITS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_FH_FORWARDINGDESTINATION.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_FH_FORWARDINGRECORD.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_FORWARDINGDETAILS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_FORWARDINGSHISTORY.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_INCOMING.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_INTERNAL.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_KARAR.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_OUTGOING.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_OUTGOINGDESTINATIONS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Insert/INSERT IO_RELATIONS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/IO_INCOMINGDESTINATIONS_Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/IO_OUTGOINGDESTINATIONS_Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_CIRCULAR_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_DEPARTMENTS_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_EMPLOYEES_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_EXTERNALUNITS_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_FORWARDINGDETAILS_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_FORWARDINGSHISTORY_NEW_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_FORWARDINGSHISTORY_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_INCOMING_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_INTERNAL_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_KARAR_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_OUTGOINGDESTINATIONS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_OUTGOING_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/MIG_IO_RELATIONS_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Data/Views/UPDATE Correspondence Attachments.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Document/INSERT MIG_MIGRATION_DATA.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Document/MIG_DOCUMENTS_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Document/MIG_GET_MIGRATION_DATA SP.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Document/MIG_MIGRATION_DATA table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration PI/Insert/insert to MIG_INBASKETDATA.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration PI/SP/MIG_GET_INBASETDATA.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration PI/Table/MIG_INBASKETDATA.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration PI/Views/MIG_IO_DEPARTMENTQUEUES_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration PI/Views/MIG_PI_USERS_DEPARTMENTS_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Workitems/Insert/insert to MIG_WORKITEMS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Workitems/SP/MIG_GET_WORKITEMOBJECT.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Workitems/Table/MIG_WORKITEMS.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration Workitems/View/MIG_WORKITEMS_VIEW.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/Migration queries notes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/SplitValue.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MIG_Scripts/fun_Split.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/MimeTypeSubscription.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/lib/Jace.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/lib/commons-io.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/lib/commons-lang.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/lib/gson-2.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/lib/stax-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/lib/tika-core-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/lib/xlxpScanner.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/lib/xlxpScannerUtils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MimeTypeSubscription/src/com/dataserve/mimetype/MimeTypeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/SPGAMigration.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/config/configs-mcdev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/config/configs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/lib/p8cel10n.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/lib/stax-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/Migration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/controller/IController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/controller/MofController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/controller/SpgaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/controller/WorkitemsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/dao/AttachmentsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/dao/C3P0DS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/dao/CEDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/dao/CEDaoOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/dao/DataDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/dao/FilesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/fxml/Home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/objects/Attachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/objects/ForwardingInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/objects/InbasketData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/objects/MigrationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/objects/UserInstructions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/objects/WorkitemObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/objects/WorkitemsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/util/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/util/EventsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/util/ICallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/util/PEUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/util/Shared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/util/SystemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/util/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/images/done.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/images/pending.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPGAMigration/target/classes/META-INF/SPGAMigration.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/Jace.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/MoamalatMigration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/MoamalatMigration.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/MoamalatMigration.jnlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/SPGAMigration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/SPGAMigration.jnlp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/c3p0-0.9.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/c3p0-oracle-thin-extras-0.9.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/jtds-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/mchange-commons-java-0.2.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/pe.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/sqljdbc41-6.0.8112.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/stax-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/xlxpScanner.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/xlxpScannerUtils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MoamalatMigration/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/ConfirmationSubscription.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/bin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/bin/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/bin/images/done.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/bin/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/bin/images/pending.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/bin/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/com/dataserve/dao/AbstractDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/com/dataserve/dao/HandlerDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/com/dataserve/dao/HijriCalendar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/com/dataserve/dao/JDBCHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/com/dataserve/dao/WebEditorDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/com/dataserve/entities/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/com/dataserve/entities/WebEditorLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/com/dataserve/handler/ConfirmationSubscriptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/lib/Jace.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/lib/commons-io.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/lib/commons-lang.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/lib/gson-2.8.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/lib/stax-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/lib/xlxpScanner.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ConfirmationSubscription/lib/xlxpScannerUtils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EmployeeImages/ImageExtraction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EmployeeImages/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/EmployeeImages/lib/sqljdbc41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FilenetCE/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FilenetCE/com/filenetce/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FilenetCE/com/filenetce/dao/CEDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FilenetCE/com/filenetce/dao/PropertyTemplateDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FilenetCE/com/filenetce/model/DocClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FilenetCE/com/filenetce/model/DocClassList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FilenetCE/com/filenetce/model/PropTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/FilenetCE/com/filenetce/model/SharedPropTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MimeTypeSubscription/com/dataserve/mimetype/MimeTypeCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/META-INF/SPGAMigration.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/Migration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/HomeController$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/SpgaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/WorkitemsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/dao/AttachmentsDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/dao/CEDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/dao/CEDaoOld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/dao/DataDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/fxml/Home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/fxml/Mof.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/fxml/Spga.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/fxml/Workitems.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/objects/Attachment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/objects/MigrationData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/objects/WorkitemObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/objects/WorkitemsData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/util/Const.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/util/PEUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/images/done.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/images/pending.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SPGAMigration/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADTest/src/com/test/TestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MimeTypeSubscription/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MimeTypeSubscription/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MimeTypeSubscription/.idea/libraries/commons_io.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MimeTypeSubscription/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/.idea/MoamalatMigration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FilenetCE/FilenetCE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/.idea/artifacts/MoamalatMigration_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/.idea/libraries/c3p0_0_9_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/Jace.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/Jace.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/MoamalatMigration.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/c3p0-0.9.5.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/c3p0-0.9.5.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/c3p0-oracle-thin-extras-0.9.5.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/c3p0-oracle-thin-extras-0.9.5.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/commons-io-1.3.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/commons-lang-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ConfirmationSubscription/lib/commons-lang.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/jtds-1.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/jtds-1.3.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/log4j-1.2.17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/mchange-commons-java-0.2.19.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/mchange-commons-java-0.2.19.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/pe.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/pe.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/sqljdbc41-6.0.8112.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/sqljdbc41-6.0.8112.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/stax-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ConfirmationSubscription/lib/stax-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/xlxpScanner.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/xlxpScanner.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/xlxpScannerUtils.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/xlxpScannerUtils.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/artifacts/MoamalatMigration_jar/xml-apis-1.0.b2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/lib/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/Migration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/HomeController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/HomeController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/HomeController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/HomeController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/HomeController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/HomeController$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/HomeController$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/HomeController$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/HomeController$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/IController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/IController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/MofController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/MofController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/MofController$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/MofController$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/MofController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/MofController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/MofController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/MofController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/SpgaController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/SpgaController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/SpgaController$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/SpgaController$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/SpgaController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/SpgaController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/SpgaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/WorkitemsController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/WorkitemsController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/WorkitemsController$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/WorkitemsController$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/WorkitemsController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/controller/WorkitemsController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/controller/WorkitemsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/dao/C3P0DS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/dao/C3P0DS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/dao/CEDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/dao/CEDaoOld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/dao/DataDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/dao/FilesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/dao/FilesDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/fxml/Home.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/fxml/Mof.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/fxml/Mof.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/fxml/Spga.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/fxml/Spga.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/fxml/Workitems.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/SPGAMigration/src/com/dataserve/migration/spga/fxml/Workitems.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/objects/Attachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/objects/FixDocumentRelation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/objects/ForwardingInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/objects/ForwardingInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/objects/InbasketData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/objects/InbasketData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/objects/MigrationData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/objects/UserInstructions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/objects/UserInstructions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/objects/WorkitemObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/objects/WorkitemsData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/util/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/util/EventsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/util/EventsUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/util/ICallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/util/ICallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/util/LDAPManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/util/PEUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/util/Shared.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/util/Shared.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/util/SystemConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/util/SystemConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/com/dataserve/migration/spga/util/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SPGAMigration/com/dataserve/migration/spga/util/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/images/done.png" beforeDir="false" afterPath="$PROJECT_DIR$/ConfirmationSubscription/bin/images/done.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/images/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/ConfirmationSubscription/bin/images/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/images/pending.png" beforeDir="false" afterPath="$PROJECT_DIR$/ConfirmationSubscription/bin/images/pending.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoamalatMigration/out/production/MoamalatMigration/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ConfirmationSubscription/bin/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPGAMigration/.idea/SPGAMigration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeImages/EmployeeImages.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPGAMigration/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPGAMigration/.idea/libraries/c3p0_0_9_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPGAMigration/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPGAMigration/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPGAMigration/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPGAMigration/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="E:\MC-Project\Tools\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="275wN4H00nNhS0KQWVN4EotmJai" />
+  <component name="ProjectId" id="2O2m9ImCcBpCLrgrG34xatgBHNZ" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MIG_Scripts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\HRDF-Project\migration\SPGAMigration\src\com\dataserve\migration\spga\fxml" />
+      <recent name="G:\HRDF-Project\migration\SPGAMigration\src\com\dataserve\migration\spga\controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\HRDF-Project\migration\SPGAMigration\src\com\dataserve\migration\spga" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dataserve.migration.spga.Main" />
+      <option name="VM_PARAMETERS" value="–module-path “pathtojavafx-sdk-17.0.1lib” –add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dataserve.migration.spga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -58,77 +407,75 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="779775e9-59e0-4c47-b289-7ba4849acf6a" name="Default Changelist" comment="" />
-      <created>1648623211188</created>
+      <changelist id="6fb046d5-3494-41d4-8dab-a387fba87726" name="Default Changelist" comment="" />
+      <created>1680766897651</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648623211188</updated>
-      <workItem from="1648623212672" duration="648000" />
-      <workItem from="1649107605564" duration="1063000" />
-      <workItem from="1651352376018" duration="574000" />
-      <workItem from="1651610771774" duration="905000" />
-      <workItem from="1653201858232" duration="1450000" />
-      <workItem from="1658822164673" duration="1350000" />
-      <workItem from="1672225093615" duration="3160000" />
-      <workItem from="1672499294879" duration="631000" />
-      <workItem from="1673337641875" duration="1403000" />
-      <workItem from="1674037307466" duration="628000" />
-      <workItem from="1674498958802" duration="2481000" />
-      <workItem from="1675937980723" duration="6224000" />
-      <workItem from="1678786770552" duration="1105000" />
-      <workItem from="1680116409879" duration="602000" />
-      <workItem from="1680728444822" duration="1499000" />
-      <workItem from="1680730799006" duration="632000" />
+      <updated>1680766897651</updated>
+      <workItem from="1680766898983" duration="4739000" />
+      <workItem from="1680991083980" duration="1521000" />
+      <workItem from="1681024531444" duration="13430000" />
+      <workItem from="1681076039773" duration="3929000" />
+      <workItem from="1681109260523" duration="1998000" />
+      <workItem from="1681111284755" duration="43454000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1677664275507">
+    <state x="495" y="76" key="#Main" timestamp="1681111096672">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1677664275507" />
-    <state x="549" y="152" key="FileChooserDialogImpl" timestamp="1677487901561">
+    <state x="495" y="76" key="#Main/0.0.1536.816@0.0.1536.816" timestamp="1681111096672" />
+    <state x="361" y="69" key="#Project_Structure" timestamp="1681122091774">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="152" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1677487901561" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1677665390986">
+    <state x="361" y="69" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1681122091774" />
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1681112803573">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1677665390986" />
-    <state x="473" y="171" width="590" height="478" key="find.popup" timestamp="1674982631994">
+    <state x="223" y="66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1681112803573" />
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1683200223276">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="473" y="171" width="590" height="478" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1674982631994" />
-    <state x="473" y="173" width="590" height="478" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1672225197727" />
-    <state x="209" y="34" key="new project wizard" timestamp="1677487903629">
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1683200223276" />
+    <state x="499" y="198" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1681122468253">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="209" y="34" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1677487903629" />
+    <state x="499" y="198" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.816@0.0.1536.816" timestamp="1681122468253" />
+    <state x="181" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1681245993073">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="181" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.816@0.0.1536.816" timestamp="1681245993073" />
+    <state x="499" y="166" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1681122622345">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="499" y="166" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.816@0.0.1536.816" timestamp="1681122622345" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1683440088498">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1683440088498" />
+    <state x="439" y="113" key="NewModule_or_Project.wizard" timestamp="1683440108970">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="439" y="113" key="NewModule_or_Project.wizard/0.0.1536.816@0.0.1536.816" timestamp="1683440108970" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1683440113699">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1683440113699" />
+    <state x="282" y="260" width="711" height="536" key="find.popup" timestamp="1683439612730">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="282" y="260" width="711" height="536" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1683439612730" />
+    <state x="511" y="33" key="refactoring.ChangeSignatureDialog" timestamp="1681246058614">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="511" y="33" key="refactoring.ChangeSignatureDialog/0.0.1536.816@0.0.1536.816" timestamp="1681246058614" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1681035837179">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1681035837179" />
   </component>
 </project>

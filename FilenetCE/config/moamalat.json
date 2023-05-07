@@ -1,0 +1,88 @@
+{
+  "docClassList": [
+    {
+      "parentClass": "Document",
+      "code": "SignableAttachment",
+      "label": "SignableAttachment",
+      "templateList": [
+        {
+          "code": "DraftLock",
+          "label": "DraftLock",
+          "dataType": "boolean"
+        },
+        {
+          "code": "MinisterJobTitle_ID",
+          "label": "MinisterJobTitle_ID",
+          "dataType": "number"
+        },
+        {
+          "code": "ConfirmUser",
+          "label": "ConfirmUser",
+          "dataType": "text"
+        },
+        {
+          "code": "letterSettings",
+          "label": "letterSettings",
+          "dataType": "text"
+        },
+        {
+          "code": "hasCCContent",
+          "label": "hasCCContent",
+          "dataType": "boolean"
+        },
+        {
+          "code": "relatedTo",
+          "label": "relatedTo",
+          "dataType": "text"
+        },
+        {
+          "code": "ForwardingStatus",
+          "label": "ForwardingStatus",
+          "dataType": "number"
+        },
+        {
+          "code": "ImportanceLevel",
+          "label": "ImportanceLevel",
+          "dataType": "text"
+        },
+        {
+          "code": "canViewUsers",
+          "label": "canViewUsers",
+          "dataType": "list"
+        },
+        {
+          "code": "IsSigned",
+          "label": "IsSigned",
+          "dataType": "boolean"
+        },
+        {
+          "code": "DocumentSubject",
+          "label": "DocumentSubject",
+          "dataType": "text"
+        },
+        {
+          "code": "CorrespondenceNumber",
+          "label": "CorrespondenceNumber",
+          "dataType": "number"
+        },
+        {
+          "code": "CorrespondenceType",
+          "label": "CorrespondenceType",
+          "dataType": "number"
+        },
+        {
+          "code": "HijricYear",
+          "label": "HijricYear",
+          "dataType": "number"
+        },
+        {
+          "code": "HF_ID",
+          "label": "HF_ID",
+          "dataType": "number"
+        }
+      ]
+    }
+  ]
+}
+
+
